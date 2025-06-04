@@ -214,9 +214,10 @@ void initialize_system() {
         farmer_hash_table[i] = NULL;
     }
     
-    // Initialize farmers with sample data
-    char* usernames[] = {"trevor", "arnold", "shafiq", "jeremiah", "dorris"};
-    int passwords[] = {1539, 2247, 1426, 1123, 3241};
+    // Dan_Trevor_Matovu dcs/day/2024/ 1539, "Mubwiine_Arnold: dcs/day/2024/ 0246", "Sebirungi_Shafiq:dcs/day/2024/0191g",
+    //"Kamogo_David:dcs/day/2024/1006g", "Twesimire_Dorris:dcs/day/2024/0902g"
+    char* usernames[] = {"Dan_Trevor_Matovu", "Mubwiine_Arnold", "Sebirungi_Shafiq", "Kamogo_David", "Twesimire_Dorris"};
+    int passwords[] = {1539, 0246, 01910, 10060, 09020};
     double balances[] = {5000.00, 7500.50, 3000.25, 6000.75, 9000.00};
     
     for (int i = 0; i < num_farmers; i++) {
